@@ -25,6 +25,8 @@ spark = SparkSession(sc)
 # Define the target PostgreSQL database URL with connection details
 target_url = "jdbc:postgresql://192.168.65.254:5432/chinook?user=postgres&password=Ieseg"
 
+# run this command in any of the docker conatainers to get the localhost ip address - ping host.docker.internal
+
 # Define the source SQL Server database URL with connection details
 source_url = "jdbc:sqlserver://192.168.65.254:1433;databaseName=AdventureWorks2022;user=potey;password=lazlo;encrypt=true;trustServerCertificate=true;"
 
